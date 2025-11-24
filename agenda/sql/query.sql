@@ -1,0 +1,12 @@
+-- Executar Query no MySQL :) 
+
+CREATE DATABASE agenda;
+USE agenda;
+
+
+CREATE TABLE contatos (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(120) NOT NULL,
+telefone VARCHAR(30) NOT NULL
+);
